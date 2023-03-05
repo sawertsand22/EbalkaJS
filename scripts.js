@@ -1,4 +1,4 @@
-var x = 0;
+var x = 10;
 q = document.getElementById(4).innerText;
 
 function getRandomInt(max) {
