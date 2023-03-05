@@ -14,8 +14,14 @@ function Ebal(){
     if(suka[1] == suka[2] && suka[0] == suka[1])
         //|| document.getElementById(4).value==111 || document.getElementById(4).value==222 || document.getElementById(4).value== 333 || document.getElementById(4).value==444  || document.getElementById(4).value==555 || document.getElementById(4).value==666 || document.getElementById(4).value==777 || document.getElementById(4).value==888 || document.getElementById(4).value==999)
     {
-        x+=150
+        x+=1600
         document.getElementById(3).value='Balance: '+ x;
+        alert('You win')
+    }
+    else if  (suka[0]==suka[1])
+    {
+        x+=450
+        document.getElementById(3).value='Balance: '+x;
         alert('You win')
     }
 else {
