@@ -33,7 +33,7 @@ function Ebal(){
     else if  (suka[0]==suka[1]&& suka[1]==suka[2] && suka[2]==suka[3])
     {
         x+=215*stavka
-        document.getElementById(3).innerText='Balance: '+x;
+        document.getElementById(3).innerText='Balance: '+ x;
 
         alert('You win');
     }
@@ -49,7 +49,7 @@ if(x<=-stavka)
 {
     alert('You are fucking looser')
     alert('shut up and take my money')
-    x=10;
+    x=100;
     document.getElementById(3).innerText = 'Balance: ' + x;
 }
 
