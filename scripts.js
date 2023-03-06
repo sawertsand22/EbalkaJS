@@ -15,14 +15,14 @@ function Ebal(){
         //|| document.getElementById(4).value==111 || document.getElementById(4).value==222 || document.getElementById(4).value== 333 || document.getElementById(4).value==444  || document.getElementById(4).value==555 || document.getElementById(4).value==666 || document.getElementById(4).value==777 || document.getElementById(4).value==888 || document.getElementById(4).value==999)
     {
 
-        x+=160*stavka
+        x+=160*stavka;
         document.getElementById(3).innerText='Balance: '+ x;
         alert('You win');
 
     }
     else if  (suka[0]==suka[1])
     {
-        x+=45*stavka
+        x+=45*stavka;
         document.getElementById(3).innerText='Balance: '+x;
 
         alert('You win');
@@ -32,7 +32,7 @@ function Ebal(){
 
     else if  (suka[0]==suka[1]&& suka[1]==suka[2] && suka[2]==suka[3])
     {
-        x+=215*stavka
+        x+=215*stavka;
         document.getElementById(3).innerText='Balance: '+ x;
 
         alert('You win');
