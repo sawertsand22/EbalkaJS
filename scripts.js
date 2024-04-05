@@ -1,6 +1,6 @@
 var x = 100;
 q = document.getElementById(4).innerText;
-var stavka=document.getElementById(5).innetText;
+var stavka=Number(document.getElementById(5).innerText);
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
