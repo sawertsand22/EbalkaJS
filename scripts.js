@@ -1,12 +1,13 @@
 var x = 100;
 q = document.getElementById(4).innerText;
-var stavka=Number(document.getElementById(5).innerText);
+let stavka=Number(document.getElementById(5).innerText);
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
 
 function Ebal(){
+    avka=Number(document.getElementById(5).innerText);
  //   var shluha = (document.getElementById(1).value)
 //        alert(shluha)
     document.getElementById(4).innerText=getRandomInt(10000);
