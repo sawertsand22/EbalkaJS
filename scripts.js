@@ -1,5 +1,5 @@
 var x = 100;
-q = document.getElementById(4).innerText;
+q = document.getElementById(5).value;
 let stavka=Number(document.getElementById(5).innerText);
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
